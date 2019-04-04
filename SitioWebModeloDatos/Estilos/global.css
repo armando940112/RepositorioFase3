@@ -38,7 +38,7 @@ h1{
 } 
 header{/*espacios entre encabezado y cuerpo documento*/
 	width: 1100px;
-	height: 20px;
+	height: 120px;
     background: rgba(300,300,300,1,2);
     display: inline-flex;
 }
