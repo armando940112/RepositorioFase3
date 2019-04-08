@@ -4,29 +4,69 @@
 		<title>Modelado de Datos</title>
 		<meta charset="UTF-8">
 		<meta description="OVI de Modelado de datos">
-		<link rel=StyleSheet href="css/global.css" TYPE="text/css">
-		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-		<script	type="text/javascript" src="js/master.js" ></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/global.css">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/master.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
 	</head>	
-	<body class="contenedor">
+	<body class="content">
 		<header>
 			<img src="img/Captura23.JPG">
 		</header>
-		<div id="nav_menu"></div>
-		
-		<main title="Contenido">
-			<h1>Inicio.</h1>
-			<article>
-			<p><h3>Bienvenido al OVI (Objeto virtual de información) correspondiente al curso Modelo de Datos 204020.</h3></p>
-			<p>Diseñado para brindarle un acercamiento al contenido del curso y aproximarlos al modelamiento y diseño de un diagrama relacional.</p>
-			<p>En este OVI encontrara información que le servira de guia para el aprendizaje de los conocimientos pertenecientes al curso.</p>
-			<p>Muchos Exitos en el desarrollo y aprendizaje de los conocimientos aqui plasmados, los invitamos a que realicen la navegación por todos los recursos aqui brindados, esperamos que este material sea de gran ayuda.</p>
-			</article>
-		</main>
+		<div>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">				
+					<ul id="menu" class="nav navbar-nav">
+						<li class="active">
+							<a class="link" data-url="home.html">Inicio</a>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								Lecturas
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="link" data-url="lecturas/lectura1.html" href="#">Lectura 1</a></li>
+								<li><a class="link" data-url="lecturas/lectura2.html">Lectura 2</a></li>
+								<li><a class="link" data-url="lecturas/lectura3.html">Lectura 3</a></li>
+								<li><a class="link" data-url="lecturas/lectura4.html">Lectura 4</a></li>
+								<li><a class="link" data-url="lecturas/lectura5.html">Lectura 5</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								Multimedia
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="link" data-url="lecturas/Actividad1.html" href="#">Audios (Podcast)</a></li>
+								<li><a class="link" data-url="lecturas/Actividad2.html">Video (Youtube)</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								Actividades
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="link" data-url="lecturas/Actividad1.html" href="#">Actividad 1</a></li>
+								<li><a class="link" data-url="lecturas/Actividad2.html">Actividad 2</a></li>
+								<li><a class="link" data-url="lecturas/Actividad3.html">Actividad 3</a></li>
+							</ul>
+						</li>
+						<li><a class="link" data-url="autores.html">Autores</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+        <div id="content">
+            <iframe id="frame"></iframe>
+        </div>
 		<div id="footer"></div>
 	</body>
 </html>
    
-
- 
-

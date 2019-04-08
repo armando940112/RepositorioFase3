@@ -1,5 +1,7 @@
 $(document).ready(function (){
-    crear_menu();
+    $(".link").click(function(){
+        $("#frame").attr("src", ($(this).attr("data-url")));
+    })
     crear_footer();
 });
 
